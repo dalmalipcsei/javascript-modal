@@ -27,5 +27,6 @@ for (let i = 0; i < modalButtons.length; i++) {
 
 //close modal
 closeModal.addEventListener('click', hideModal);
+overlay.addEventListener('click', hideModal);
 // close modal with Esc
 document.addEventListener('keydown', hideModalEsc);
